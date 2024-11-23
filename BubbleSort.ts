@@ -1,3 +1,5 @@
+let arr = [5, 3, 8, 2, 1, 4];
+
 function bubbleSort(arr: number[]): number[] {
   let n = arr.length;
 
@@ -13,4 +15,5 @@ function bubbleSort(arr: number[]): number[] {
   return arr;
 }
 
-console.log(bubbleSort([5, 3, 8, 2, 1, 4]));
+console.log(bubbleSort(arr));
+// console.log(bubbleSort([5, 3, 8, 2, 1, 4]));
